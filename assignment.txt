@@ -1,0 +1,34 @@
+$ mkdir encyclopedia
+$ cd encyclopedia
+$ mkdir science/culture
+$ cd science
+$ touch science/botony.txt
+$ cd culture
+$ touch culuture/art/craft
+$ cd..
+  
+
+1.a.ls alt
+2.a.cd science
+    cp botony.txt../culture/craft
+3.a.cd../culture
+  mv  art../science
+4.pwd
+5.cd..
+  cd science
+  ls
+  rm  art
+  ls
+
+
+
+
+
+
+
+
+List all the files including hidden in detailed view.
+Copy Botany.txt from Science to Craft
+Move Art from Culture to Science
+Display your current working directory.
+Delete Art directory.
